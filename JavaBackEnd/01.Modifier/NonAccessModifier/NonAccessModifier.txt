@@ -1,0 +1,13 @@
+1.Final: The final keyword is used to indicate that a class, method, or variable cannot be further extended, overridden, or modified once it is defined. [class , method , variable]
+
+2.Abstract: The abstract keyword is used to define abstract classes and methods. Abstract classes cannot be instantiated directly, and abstract methods must be implemented by the concrete subclasses. [class , method]
+
+3.Static: The static keyword is used to define class-level variables and methods, which are shared among all instances of the class. Static members can be accessed using the class name directly without creating an object. [class , method , variable , block]
+
+4.Synchronized: Method can be accessed by one thread at a time. [method]
+
+5.Volatile: The volatile keyword is used to mark a variable as being stored in the main memory rather than in the thread's local cache. [variable]
+
+6.Transient: The variable's value will not be persisted during serialization.[variable]
+
+7.Strictfp: The strictfp keyword is used to ensure that all floating-point calculations within a class or method adhere to the IEEE 754 standard, guaranteeing consistent results across different platforms. [variable]

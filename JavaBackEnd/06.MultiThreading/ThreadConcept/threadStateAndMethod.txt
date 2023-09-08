@@ -1,0 +1,27 @@
+Multithreading:
+Thread Life-Cycle > 5 States:
+- New State    -> when thread is created
+- Runnable State    ->  when start() method is called
+- Running State     -> a thead is running with run() method 
+- Non-Runnable State	    -> sleep(),  wait() , lock() method
+- Terminated State   -> dead
+
+----new---> runnable -------> running ----> Terminated
+                |                |
+                |                |
+                ----- non-runnable      
+
+Through resume() , notify(), non-runnable to runnable state.
+
+Thread Creation: extends Thread or implements Runnable
+Thread method:
+0. start() and run()
+1. getPriority() and setPriority() 
+2. sleep() and join()
+3. getState() and setDemon(true) 
+4. getName() and setName() 
+
+Daemon thread are low priority thread while user thread are usually of high priority.
+
+synchronized keyword:
+

@@ -1,0 +1,8 @@
+Polymorphism: poly = many , morph = forms
+Note: Java does not support operator overloading.
+
+             Static / compile-time polymorphism --> method overloading
+             /
+Polymorphism
+             \
+             Dynamic / runtime polymorphism --> method overriding
