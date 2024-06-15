@@ -4,9 +4,9 @@
 
 3.Static: The static keyword is used to define class-level variables and methods, which are shared among all instances of the class. Static members can be accessed using the class name directly without creating an object. [class , method , variable , block]
 
-4.Synchronized: Method can be accessed by one thread at a time. [method]
+4.Synchronized: Method/Block can be accessed by one thread at a time. [method/block]
 
-5.Volatile: The volatile keyword is used to mark a variable as being stored in the main memory rather than in the thread's local cache. [variable]
+5.Volatile: The volatile keyword is used to mark a variable as being stored in the main memory rather than in the thread's local cache. [variable].It is providing accessibity of variable to all thread simultaneously & consistency is also maintained.
 
 6.Transient: The variable's value will not be persisted during serialization.[variable]
 
